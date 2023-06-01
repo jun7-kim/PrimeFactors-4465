@@ -6,11 +6,11 @@ class PrimeFactor
 public:
 	vector<int> of(int i)
 	{
-		vector<int> resutl = {};
+		vector<int> result = {};
 		if (i==2)
 		{
-			resutl.push_back(2);
+			result.push_back(2);
 		}
-		return resutl;
+		return result;
 	}
 };
